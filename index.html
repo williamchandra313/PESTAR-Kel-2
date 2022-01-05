@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="dn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peduli Sekitar</title>
+    <!-- css -->
+    <link rel="stylesheet" href="Aset\css\style.css">
+    <link rel="stylesheet" href="Aset\css\responsive.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="Aset\img\logo.png"></a>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Artikel.html">Article</a></li>
+                <li><a href="pestar.html">Pestar</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+
+
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <div id="wrapper" class="home">
+        <section>
+            <div class="hei">
+                <!-- Content -->
+                <div class="slideshow">
+                    <div class="slide">
+                        <img src="Aset/img/membantu.jpg" alt="aa" class="slide-bild"></a>
+                        <div class="slide-textbereich">
+                            <h1 class="slide-ueberschrift">5 Manfaat Membantu Orang, Hidup Bisa Jadi Bahagia!</h1>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="Aset/img/stress.jpeg" alt="aa" class="slide-bild"></a>
+                        <div class="slide-textbereich">
+                            <h1 class="slide-ueberschrift">Cara Menghilangkan Stress Berat dan Berkepanjangan</h1>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <a href="Artikel.html"><img src="Aset/img/batuk.jpg" alt="aa" class="slide-bild"></a>
+                        <div class="slide-textbereich">
+                            <h1 class="slide-ueberschrift">Berbahaya, Jangan Lakukan Ini Saat Menolong Orang yang
+                                Tersedak
+                            </h1>
+                        </div>
+                    </div>
+                    <a class="pfeil pfeil-links" onclick="umschalten(-1)"><span>&#10094;</span></a>
+                    <a class="pfeil pfeil-rechts" onclick="umschalten(1)"><span>&#10095;</span></a>
+                    <ol class="indikatorenliste">
+                        <li class="indikator" onclick="springeZuEintrag(0)">&#8226;</li>
+                        <li class="indikator" onclick="springeZuEintrag(1)">&#8226;</li>
+                        <li class="indikator" onclick="springeZuEintrag(2)">&#8226;</li>
+                    </ol>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <!-- List -->
+        <section class="df">
+            <div class="user">
+                <div class="daftar">
+                    <img src="Aset\img\user.png">
+
+                    <div class="text">
+                        <table border="0">
+                            <tr>
+                                <td>Suheni</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Warga Desa Bayah Barat, Banten membutuhkan bantuan
+                                        untuk biaya sekolah.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="daftar">
+                    <img src="Aset\img\user.png">
+                    <div class="text">
+                        <table border="0">
+                            <tr>
+                                <td>Murjilah</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Warga Desa Merdikorejo, Tempel, Sleman membutuhkan bantuan
+                                        untuk mencukupi kebutuhan sehari-hari dan sekolah anaknya.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="daftar">
+                    <img src="Aset\img\user.png">
+
+                    <div class="text">
+                        <table border="0">
+                            <tr>
+                                <td>Pak De Yadi</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Warga Kab. Penajam, Kalimantan Timur susah untuk berjalan normal dikarenakan
+                                        usianya
+                                        yang sudah 70 Tahun.
+                                        Bantu Pak De membuatkan kios buah agar tetap bisa berjualan.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <a href="pestar.html" class="btn">View More</a>
+        </section>
+    </div>
+    <br>
+    <footer>
+        <div class="hub">
+            <div class="ikon">
+                <img src="Aset\img\logos.png">
+            </div>
+            <div class="survey">
+                Sampaikan saran dan kritik anda <a href="https://forms.gle/rTz9qgwnqMu12xiH9">disini!</a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/pestar_official/"><img src="Aset\img\instagram.png"></a>
+                <a href="https://www.facebook.com/pestar4122"><img src="Aset\img\facebook.png"></a>
+                <a href="https://t.me/+t36NLES-pndiNjg1"><img src="Aset\img\telegram.png"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="Aset\js\script.js"></script>
+    <script src="Aset\js\slideshow.js"></script>
+</body>
+
+</html>
