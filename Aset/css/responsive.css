@@ -1,9 +1,7 @@
 /* Responsive */
 /* Mobile */
 @media screen and (max-width: 576px) {
-    body{
-        overflow-x: hidden;
-    }
+   
     nav ul {
         position: absolute;
         right: 0;
